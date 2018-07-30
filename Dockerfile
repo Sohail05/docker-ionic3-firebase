@@ -14,4 +14,4 @@ RUN apt-get update -q && \
     apt-get upgrade -y -q && \
     apt-get install -y -q curl git
 
-RUN npm install -g npm ionic cordova firebase-tools
+RUN npm install -g npm ionic cordova firebase-tools tslint typescript
